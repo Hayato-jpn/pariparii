@@ -1,0 +1,1 @@
+(async function(){try{if("browsingTopics"in document&&document.featurePolicy.allowsFeature("browsing-topics"))return await document.browsingTopics()}catch(o){console.log(o)}return Promise.resolve([])})().then((o=>{!function(o){const t={tag:"tpc",tpc:o};window.parent.postMessage(t,"*")}(o)}));
